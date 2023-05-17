@@ -1,0 +1,50 @@
+fieldset{
+    border: none;
+    margin-top: 50px;
+}
+
+textarea, label{
+    display: block;
+    margin: auto;
+}
+
+label{
+    font-size: 25px;
+    margin-left: 155px;
+    margin-bottom: 25px;
+}
+
+textarea{
+    height: 40vh;
+    width: 80vw;
+    resize: none;
+    font-size: 20px;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 20px 15px;
+}
+
+button:hover{
+    background-color: rgb(25, 22, 22);
+    color: aliceblue;
+    border: 2px solid aliceblue;
+}
