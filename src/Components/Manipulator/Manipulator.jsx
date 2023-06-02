@@ -62,7 +62,6 @@ const Manipulator = () => {
   const ClearText = (e) => {
     let text = textarea.value;
     text = '';
-
     textarea.value = text;
     e.preventDefault();                            
   };
